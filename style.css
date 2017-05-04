@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+.top {
+  height: auto;
+}
+
+.word-container img {
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+}
+
+.word-container div {
+  padding: 5px;
+  color: #6b6e6e;
+}
+
+.word-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.word-container div:hover {
+  text-decoration: underline;
+}
+
+
+.logo {
+  height: 445px;
+  width: auto;
+  margin: auto;
+}
+
+.logocontainer, .searchcontainer, .buttoncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logocontainer {
+  margin-top: 215px;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 325px;
+}
+
+input:active {
+border: #b7efff;
+}
+
+.footer {
+  height: auto;
+  background-color: #d2d9da;
+  display:flex;
+  justify-content: space-between;
+  color: #6b6e6e;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.privacy, .terms, .settings {
+  margin: 10px;
+}
+
+.left{
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+.ad, .business, .about {
+  margin: 10px;
+}
+
+.left div:hover {
+  text-decoration: underline;
+}
+
+.right div:hover {
+  text-decoration: underline;
+}
